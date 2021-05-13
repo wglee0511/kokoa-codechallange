@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div>
+      <h1>Create An Account</h1>
+      <form>
+        <label>First name</label>
+        <input type="text" placeholder="First name" />
+        </br>
+        <label>Last name</label>
+        <input type="text" placeholder="Last name" />
+</br>
+        <label>Email</label>
+        <input type="email" placeholder="Email" required />
+        </br>
+        <label>Username</label>
+        <input type="text" placeholder="Username"/>
+</br>
+        <label>Password</label>
+        <input type="password" minlength="10" placeholder="Password" required />
+</br>
+        <label>Birth date</label>
+        <input type="date" />
+</br>
+        <label>How happy are you?</label>
+        <input type="range" min="0" max="10" step="1" list="steplist" />
+        <datalist id="steplist">
+  <option value="0"></option>
+  <option value="1"></option>
+  <option value="2"></option>
+  <option value="3"></option>
+  <option value="4"></option>
+  <option value="5"></option>
+  <option value="6"></option>
+  <option value="7"></option>
+  <option value="8"></option>
+  <option value="9"></option>
+  <option value="10"></option>
+</datalist>
+</br>
+        <label>What is your fav.color?</label>
+        <input type="color" />
+        </br>
+      <button>Create Account</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
