@@ -1,0 +1,61 @@
+@import "reset.css";
+
+h1 {
+  font-size: 30px;
+  font-weight: 800;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.main-div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-box {
+  margin-top: 25px;
+  display: flex;
+}
+.color {
+  width: 165px;
+  height: 300px;
+}
+.inner {
+  position: relative;
+  top: 15px;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.right {
+  margin-left: 25px;
+}
+
+.tomato {
+  background-color: #ff6347;
+}
+
+.teal {
+  background-color: #008080;
+}
+.burly {
+  background-color: #deb887;
+}
+
+.thistle {
+  background-color: #d7bfd7;
+}

@@ -1,0 +1,49 @@
+@import "reset.css";
+
+body {
+  background-color: #ff6347;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  width: 200px;
+  height: 200px;
+  background-color: #f5deb3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid black;
+}
+
+.sq {
+  width: 40px;
+  height: 40px;
+  border: 3px solid white;
+  background-color: #008080;
+}
+
+.bar {
+  width: 160px;
+  height: 40px;
+  border: 3px dotted white;
+  background-color: #008080;
+}
+
+.sq1 {
+  margin-top: 15px;
+}
+
+.sq2 {
+  margin-bottom: 15px;
+}
