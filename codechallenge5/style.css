@@ -1,0 +1,123 @@
+@import "reset.css";
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  padding: 70px 0 0 30px;
+  width: 400px;
+  height: 880px;
+  border: 3px solid #bbb0dc;
+}
+
+.status {
+  display: flex;
+  font-size: 25px;
+  font-weight: 1000;
+}
+
+.total-div {
+  margin: 50px 30px 0 0;
+}
+
+.list-string {
+  margin-right: 90px;
+}
+
+.now-play-box {
+  display: flex;
+}
+.playlist > li > div,
+.now-play-box > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+.main-name {
+  font-size: 40px;
+  font-weight: 1000;
+  margin-bottom: 25px;
+}
+.main-artist {
+  font-size: 25px;
+  font-weight: 1000;
+}
+
+.play-button-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-bottom: 6px solid black;
+  font-size: 24px;
+  font-weight: 1000;
+}
+button:active {
+  color: white;
+  background-color: black;
+}
+
+.play-button,
+.play-button > div {
+  width: 180px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.play-button > div > h2 {
+  margin-left: 12px;
+}
+
+.cir {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.playlist {
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+}
+
+li {
+  display: flex;
+}
+.playlist > li > div {
+  margin-left: 25px;
+}
+.name {
+  font-size: 24px;
+  font-weight: 1000;
+}
+.artist {
+  color: gray;
+  font-size: 20px;
+  font-weight: 1000;
+  margin-top: 10px;
+}
